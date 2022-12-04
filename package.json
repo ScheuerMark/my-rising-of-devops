@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint '*.js'",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
     "start": "node index.js"
   },
   "author": "",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.24.2"
+    "eslint-plugin-import": "^2.24.2",
+    "lint": "^0.8.8"
   }
 }
