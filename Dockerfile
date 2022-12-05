@@ -12,6 +12,6 @@ RUN npm install     && ncu -u     && npm install
 # npm ci will install dependencies from package-lock.json
 RUN npm ci --only=production
 # Bundle app source
-COPY ../javascript /app
+COPY . /app
 EXPOSE 5000
 CMD [ "node", "index.js" ]
