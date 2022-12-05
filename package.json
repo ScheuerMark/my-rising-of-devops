@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "lint": "eslint '*.js'",
     "start": "node index.js"
   },
   "author": "",
